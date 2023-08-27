@@ -1,0 +1,69 @@
+.loading {
+  margin-top: 20px;
+  border: 16px solid #adb5bd; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #adb5bd}
+
+th {
+  background-color: #3498db;
+  color: #edf2fb;
+}
+
+h1 {
+  text-align: center;
+  color: #3498db;
+}
+
+h2 {
+  color: #3498db;
+}
+
+#content {
+  display: block;
+}
+
+.container {
+  width: 70%;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+body {
+  background-color: #edf2fb;
+  font-family: 'Noto Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.errorCard {
+  background-color: #adb5bd;
+  width: 50%;
+  text-align: center;
+  border: solid 5px #3498db;
+  /* border-top: solid 10px #3498db; */
+  border-radius: 15px;
+  padding-bottom: 10px;
+}
